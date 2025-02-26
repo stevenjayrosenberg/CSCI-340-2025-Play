@@ -20,5 +20,10 @@ namespace TestWPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            messageLabel.Content = "Thanks for clicking!";
+        }
     }
 }
