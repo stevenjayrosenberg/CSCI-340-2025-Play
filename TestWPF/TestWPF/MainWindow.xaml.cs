@@ -23,7 +23,7 @@ namespace TestWPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            messageLabel.Content = "Thanks for clicking!";
+            messageLabel.Content = "Gone Fishing";
         }
     }
 }
