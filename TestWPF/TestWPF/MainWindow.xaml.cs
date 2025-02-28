@@ -21,7 +21,7 @@ namespace TestWPF
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void SignIn_Button_Click(object sender, RoutedEventArgs e)
         {
             messageLabel.Content = "Gone Fishing";
         }

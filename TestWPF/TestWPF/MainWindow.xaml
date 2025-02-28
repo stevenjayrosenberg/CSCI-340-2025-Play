@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Login" HorizontalAlignment="Left" Margin="657,343,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="657,343,0,0" VerticalAlignment="Top" Click="SignIn_Button_Click"/>
         <Label Content="" HorizontalAlignment="Left" Margin="207,148,0,0" VerticalAlignment="Top" Name="messageLabel"/>
 
     </Grid>
