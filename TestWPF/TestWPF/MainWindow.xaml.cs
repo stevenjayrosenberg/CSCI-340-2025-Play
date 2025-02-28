@@ -23,7 +23,12 @@ namespace TestWPF
 
         private void SignIn_Button_Click(object sender, RoutedEventArgs e)
         {
-            messageLabel.Content = "Gone Fishing";
+            messageLabel.Content = "Gone Fishing.";
+        }
+
+        private void SignOut_Button_Click(object sender, RoutedEventArgs e)
+        {
+            messageLabel.Content = "Back From Fishing. Making Fish Tacos.";
         }
     }
 }
