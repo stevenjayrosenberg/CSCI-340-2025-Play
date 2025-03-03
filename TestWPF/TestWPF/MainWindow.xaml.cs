@@ -30,5 +30,15 @@ namespace TestWPF
         {
             messageLabel.Content = "Back From Fishing. Making Fish Tacos.";
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            messageLabel.Content = "Click on the Click here button";
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            messageLabel.Content = "Click on the red button";
+        }
     }
 }

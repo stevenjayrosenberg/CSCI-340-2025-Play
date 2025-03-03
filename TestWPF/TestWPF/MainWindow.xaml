@@ -10,6 +10,17 @@
         <Button Content="Login" HorizontalAlignment="Left" Margin="657,343,0,0" VerticalAlignment="Top" Click="SignIn_Button_Click"/>
         <Label Content="" HorizontalAlignment="Left" Margin="207,148,0,0" VerticalAlignment="Top" Name="messageLabel"/>
         <Button Content="Log Out" HorizontalAlignment="Left" Height="28" Margin="267,353,0,0" VerticalAlignment="Top" Width="56" Click="SignOut_Button_Click"/>
+        <Button x:Name="__" Content="Do not click" RenderTransformOrigin="0.5,0.5" Margin="384,33,347,184" Click="Button_Click" Background="#FFF80606">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.333"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Click Here" HorizontalAlignment="Left" Margin="454,174,0,0" VerticalAlignment="Top" Height="74" Width="67" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
