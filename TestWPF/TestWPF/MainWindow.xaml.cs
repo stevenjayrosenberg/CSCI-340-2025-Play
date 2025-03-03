@@ -30,5 +30,11 @@ namespace TestWPF
         {
             messageLabel.Content = "Back From Fishing. Making Fish Tacos.";
         }
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            messageLabel.Content = "Congrats, you caught a smallmouth Bass.";
+        }
     }
 }

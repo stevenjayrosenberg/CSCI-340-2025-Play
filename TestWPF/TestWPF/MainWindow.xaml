@@ -10,6 +10,7 @@
         <Button Content="Login" HorizontalAlignment="Left" Margin="657,343,0,0" VerticalAlignment="Top" Click="SignIn_Button_Click"/>
         <Label Content="" HorizontalAlignment="Left" Margin="207,148,0,0" VerticalAlignment="Top" Name="messageLabel"/>
         <Button Content="Log Out" HorizontalAlignment="Left" Height="28" Margin="267,353,0,0" VerticalAlignment="Top" Width="56" Click="SignOut_Button_Click"/>
+        <Button x:Name="Find_Fish" Content="Fish" HorizontalAlignment="Left" Margin="657,74,0,0" VerticalAlignment="Top" Height="27" Width="84" Click="Button_Click" Background="#FF76ADD1"/>
 
     </Grid>
 </Window>
