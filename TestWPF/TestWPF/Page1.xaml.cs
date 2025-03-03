@@ -25,14 +25,29 @@ namespace TestWPF
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            testMessage.Content = "Going to page 1";
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             testMessage.Content = "Going to page 2";
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            testMessage.Content = "Going to page 1";
+            testMessage.Content = "Going to page 3";
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            testMessage.Content = "Going to page 4";
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
