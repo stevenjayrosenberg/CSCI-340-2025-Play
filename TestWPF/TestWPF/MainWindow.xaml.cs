@@ -40,5 +40,15 @@ namespace TestWPF
         {
             messageLabel.Content = "Click on the red button";
         }
+
+        private void Junior_Button_Click(object sender, RoutedEventArgs e)
+        {
+            messageLabel.Content = "YOU HAVE CLICKED THE JUNIOR BUTTON!!!";
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

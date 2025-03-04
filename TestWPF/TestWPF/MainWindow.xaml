@@ -21,6 +21,7 @@
             </Button.RenderTransform>
         </Button>
         <Button Content="Click Here" HorizontalAlignment="Left" Margin="454,174,0,0" VerticalAlignment="Top" Height="74" Width="67" Click="Button_Click_1"/>
+        <Button Content="Junior Button" HorizontalAlignment="Left" Height="28" Margin="116,272,0,0" VerticalAlignment="Top" Width="80" Click="Junior_Button_Click"/>
 
     </Grid>
 </Window>
