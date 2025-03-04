@@ -33,12 +33,12 @@ namespace TestWPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            messageLabel.Content = "Click on the Click here button";
+            newLabel.Content = "Click on the Click here button";
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            messageLabel.Content = "Click on the red button";
+            newLabel.Content = "Click on the red button";
         }
     }
 }
