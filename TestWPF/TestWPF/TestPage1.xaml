@@ -1,0 +1,14 @@
+﻿<Window x:Class="TestWPF.TestPage1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWPF"
+        mc:Ignorable="d"
+        Title="TestPage1" Height="450" Width="800">
+
+    <Grid HorizontalAlignment="Left" Width="800">
+        <Label Content="Test page 1" HorizontalAlignment="Center" Height="79" Margin="0,33,0,0" VerticalAlignment="Top" Width="298" Name="testMessage" Background="#FF594D4D"/>
+        <Button Content="Home" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="164" Click="Button_Click_home" FontSize="22" FontWeight="Bold" Background="White"/>
+    </Grid>
+</Window>

@@ -15,5 +15,6 @@
         <Button Content="test page 4" HorizontalAlignment="Left" Height="84" Margin="461,282,0,0" VerticalAlignment="Top" Width="250" Click="Button_Click_4" FontWeight="Bold" FontSize="22" Background="White"/>
 
         <Label Content="" HorizontalAlignment="Center" Height="79" Margin="0,33,0,0" VerticalAlignment="Top" Width="298" Name="testMessage" Background="#FF594D4D"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="820,382,0,0" VerticalAlignment="Top" Width="0"/>
     </Grid>
 </Page>

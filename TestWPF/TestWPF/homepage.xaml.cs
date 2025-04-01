@@ -17,25 +17,32 @@ namespace TestWPF
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class HomePage : Window
     {
-        public Window1()
+        public HomePage()
         {
             InitializeComponent();
         }
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            testMessage.Content = "Going to page 1";
+            TestPage1 testPage1 = new TestPage1();
+            testPage1.Show();
+            this.Close();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            testMessage.Content = "Going to page 2";
+            TestPage2 testPage2 = new TestPage2();
+            testPage2.Show();
+            this.Close();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             testMessage.Content = "Going to page 3";
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
