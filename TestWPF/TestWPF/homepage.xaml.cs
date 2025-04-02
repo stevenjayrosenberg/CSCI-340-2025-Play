@@ -26,6 +26,8 @@ namespace TestWPF
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             TestPage1 testPage1 = new TestPage1();
+            testPage1.Height = this.Height;
+            testPage1.Width = this.Width;
             testPage1.Top = this.Top;
             testPage1.Left = this.Left;
             testPage1.Show();
@@ -35,6 +37,8 @@ namespace TestWPF
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             TestPage2 testPage2 = new TestPage2();
+            testPage2.Height = this.Height;
+            testPage2.Width = this.Width;
             testPage2.Top = this.Top;
             testPage2.Left = this.Left;
             testPage2.Show();
@@ -45,6 +49,8 @@ namespace TestWPF
         {
             testMessage.Content = "Going to page 3";
             MainWindow mainWindow = new MainWindow();
+            mainWindow.Height = this.Height;
+            mainWindow.Width = this.Width;
             mainWindow.Top = this.Top;
             mainWindow.Left = this.Left;
             mainWindow.Show();
