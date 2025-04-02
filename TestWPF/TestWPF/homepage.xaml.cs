@@ -26,6 +26,8 @@ namespace TestWPF
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             TestPage1 testPage1 = new TestPage1();
+            testPage1.Top = this.Top;
+            testPage1.Left = this.Left;
             testPage1.Show();
             this.Close();
         }
@@ -33,6 +35,8 @@ namespace TestWPF
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             TestPage2 testPage2 = new TestPage2();
+            testPage2.Top = this.Top;
+            testPage2.Left = this.Left;
             testPage2.Show();
             this.Close();
         }
@@ -41,6 +45,8 @@ namespace TestWPF
         {
             testMessage.Content = "Going to page 3";
             MainWindow mainWindow = new MainWindow();
+            mainWindow.Top = this.Top;
+            mainWindow.Left = this.Left;
             mainWindow.Show();
             this.Close();
         }

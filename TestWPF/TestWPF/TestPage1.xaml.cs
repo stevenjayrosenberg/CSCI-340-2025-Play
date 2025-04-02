@@ -27,6 +27,8 @@ namespace TestWPF
         private void Button_Click_home(object sender, RoutedEventArgs e)
         {
             HomePage homepage = new HomePage();
+            homepage.Top = this.Top;
+            homepage.Left = this.Left;
             homepage.Show();
             this.Close();
         }
