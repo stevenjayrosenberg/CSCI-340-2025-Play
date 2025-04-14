@@ -45,9 +45,5 @@ namespace TestWPF
             testMessage.Content = "Going to page 4";
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
     }
 }
