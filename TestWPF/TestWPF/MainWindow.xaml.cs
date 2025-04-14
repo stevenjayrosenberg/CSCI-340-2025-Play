@@ -40,5 +40,6 @@ namespace TestWPF
         {
             messageLabel.Content = "Click on the red button";
         }
+        faosidjfaiosdaofiajfdi.
     }
 }
