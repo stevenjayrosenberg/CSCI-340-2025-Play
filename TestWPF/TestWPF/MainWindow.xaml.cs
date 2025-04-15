@@ -40,6 +40,6 @@ namespace TestWPF
         {
             newLabel.Content = "Click on the red button";
         }
-        
+        bhxfvgbjmnl
     }
 }
