@@ -40,5 +40,5 @@ namespace TestWPF
         {
             newLabel.Content = "Click on the Juniorless red button";
         }
-    } aslkfja;ajabaaakah
+    } 
 }
