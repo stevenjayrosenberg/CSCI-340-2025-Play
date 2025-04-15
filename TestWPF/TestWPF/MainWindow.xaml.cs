@@ -38,7 +38,7 @@ namespace TestWPF
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            newLabel.Content = "Click on the red button";
+            newLabel.Content = "Click on the Juniorless red button";
         }
         
     }
