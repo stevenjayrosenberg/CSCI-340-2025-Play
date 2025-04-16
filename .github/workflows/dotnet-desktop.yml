@@ -79,7 +79,7 @@ jobs:
       
     # Should atually build the solution
     - name: Build the solution
-      run: msbuild $env:Solution_Name /p:Configuration=$env:Configuration /p:Platform="Any CPU"
+      run: msbuild $env:Solution_Name
 
     # Execute all unit tests in the solution
     - name: Execute unit tests
